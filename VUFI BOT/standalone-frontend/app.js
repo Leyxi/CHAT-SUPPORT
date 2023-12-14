@@ -1,3 +1,5 @@
+let onSending = false
+
 class Chatbox {
     constructor() {
         this.args = {
@@ -20,7 +22,8 @@ class Chatbox {
 
         const node = chatBox.querySelector('input');
         node.addEventListener("keyup", async ({ key }) => {
-            if (key === "Enter") {
+            if (key === "Enter" && !onSending) {
+                onSending = true
                 botStatus.textContent = "AI is thinking..."
                 sendButton.setAttribute("disabled", "true")
                 sendButton.classList.add("disabled__send__button")
@@ -28,6 +31,7 @@ class Chatbox {
                 sendButton.removeAttribute("disabled")
                 sendButton.classList.remove("disabled__send__button")
                 botStatus.textContent = "Online"
+                onSending = false
             }
         })
     }
