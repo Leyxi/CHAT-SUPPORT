@@ -46,11 +46,58 @@
         "words": "apakah saya jahat?",
         "answer": "tidak aidyl sangat baik,hanya saja asta tidak dapat mengerti dirimu,semangatt,hari ini adalah hari yg jelekk ,"
       },
+      
       {
-        "type":"dadan",
-        "words":"dadan",
-        "answer":"dadan adalah anak kelas 10 smkn1 pangkep jurusan rpl dengan tinggi badan 165"
-      }
+        "type":"info",
+        "words":"kajuu di buat dengan teknologi apa?dan framework apa?",
+        "answer":"web e-commerce kajuu di buat dengan teknologi ,FIGMA,LARAVEL,TAILWINDCSS,MYSQL,PYTHON"
+
+      },
+      {
+        "type":"info",
+        "words":"apa itu CRUD?",
+        "answer":"CRUD adalah singkatan dari Create, Read, Update, Delete, yang merujuk pada sekumpulan fungsi dasar yang digunakan untuk mengelola data dalam database atau aplikasi. Keempat fungsi ini membentuk siklus inti dari interaksi dengan data"
+      },
+      {
+        "type":"info",
+        "words":"Apakah web anda memiliki fitur Ai atau tertanam AI(Artificial intelligence)",
+        "answer":"ya web kami memiliki fitur ai atau (Artificial intelligence) "
+        },
+        {
+          "type":"info",
+          "words":"di mana asal sekolah anda?",
+          "answer":"kami berasal dari sekolah SMK NEGERI 1 PANGKEP"
+        },
+        {
+          "type":"info",
+          "words":"alamat sekolah anda?",
+          "answer":"SMKN 1 Pangkep beralamat di Jalan Sambung Jawa, Kecamatan Bungoro, Kabupaten Pangkajene Kepulauan, Sulawesi Selatan."
+        },
+        {
+          "type":"info",
+          "words":"berapa jumlah orang di tim anda?",
+          "answer":"ada 3 orang"
+        },
+        {
+          "type":"info",
+          "words":"Apa itu figma",
+          "answer":"Figma adalah aplikasi desain berbasis cloud yang digunakan untuk mendesain antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk produk digital. Figma menawarkan berbagai fitur yang memudahkan desainer untuk membuat desain yang profesional dan berkualitas tinggi"
+        },
+        {
+          "type":"info",
+          "words":"apa itu laravel?",
+          "answer":"Laravel adalah framework PHP yang open-source dan digunakan untuk mengembangkan aplikasi web. Framework ini didesain dengan prinsip-prinsip yang membuat pengembangan aplikasi berbasis web lebih efisien, dinamis, dan powerful.,"
+        },
+        {
+          "type":"info",
+          "words":"apa itu tailwind css",
+          "answer":"Tailwind CSS adalah kerangka kerja CSS yang menyediakan katalog mendalam tentang kelas dan alat CSS yang memungkinkan Anda dengan mudah mulai menata situs web atau aplikasi Anda"
+
+        },
+        {
+          "type":"info",
+          "words":""
+        }
       
     ]
   }
