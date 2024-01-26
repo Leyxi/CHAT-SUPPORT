@@ -1,4 +1,5 @@
 <h1>CHAT SUPPORT</h1>
+<h2>By Aidyl</h2>
 <hr><p>bot ai untuk web E-COMMERCE KAJUU</p><h2>General Information</h2>
 <hr><ul>
 <li>di buat dengan love aahhahha</li>
