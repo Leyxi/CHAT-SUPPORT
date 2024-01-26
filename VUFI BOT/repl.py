@@ -4,6 +4,9 @@ from flask import Flask, json, request, jsonify
 from flask_cors import CORS
 import requests
 from collections import namedtuple
+import spacy
+import json
+from fuzzywuzzy import fuzz
 
 app = Flask(__name__)
 CORS(app)
@@ -11,40 +14,57 @@ CORS(app)
 app.debug = True
 logging.basicConfig(level=logging.INFO)
 
-api_url = os.getenv("HERCAI_API_URL", "https://hercai.onrender.com/v3-beta/hercai")
+data_json_path = os.getenv("DATA_JSON_PATH", "data.json")
 
 Response = namedtuple('Response', 'content accuracy error')
 
+nlp = spacy.load("en_core_web_sm") 
+
+def load_data_json():
+    with open(data_json_path, "r") as f:
+        data = json.load(f)
+    return data
 
 def generate_response(user_input: str) -> Response:
-    user_input = user_input.lower()
-    response = requests.get(f"{api_url}?question={user_input}")
+    data = load_data_json()
 
-    try:
-        response.raise_for_status()
-    except requests.exceptions.RequestException as err:
-        return Response(None, 0, f"Request Error: {err}")
+   
+    keywords = [token.text for token in nlp(user_input) if token.pos_ in ["NOUN", "VERB", "ADJ"]]
+    intent = "greeting" if "hello" in keywords else "question"
 
-    if response.status_code == 200:
-        response_data = json.loads(response.text)
+    # Cari jawaban berdasarkan kata kunci atau maksud pengguna
+    answer = None
+    best_match = None
+    best_score = 0
 
-        if response_data.get("status") == 404:
-            return Response(None, 0, "Pertanyaan tidak boleh kosong")
+    for entry in data["data"]:
+      
+        if intent == entry["words"] and any(keyword in entry["keywords"] for keyword in keywords):
+            answer = entry["answer"]
+            break
 
-        error_message = response_data.get("error", None)
+       
+        score = fuzz.partial_ratio(user_input.lower(), entry["words"].lower())
+        if score > best_score:
+            best_score = score
+            best_match = entry["answer"]
 
-        if error_message is not None:
-            return Response(None, 0, error_message)
-        else:
-            return Response(response_data.get("reply", None), 1, None)
-    else:
-        return Response(None, 0, "Tidak dapat mengambil respons")
+   
+    if not answer:
+        answer = best_match
+
+   
+    if not answer:
+        answer = "Maaf, saya tidak mengerti pertanyaan Anda."
+
+    return Response(answer, 1 if answer else 0, None)
+
+
 
 
 @app.route('/')
 def index():
     return '<h1>Halaman Utama</h1>'
-
 
 @app.route('/api', methods=['GET', 'POST'])
 def api():
@@ -70,7 +90,6 @@ def api():
     except Exception as e:
         logging.error(f'Error dalam mengelola permintaan: {str(e)}')
         return jsonify({'error': 'Terjadi kesalahan dalam mengelola permintaan'}), 500
-
 
 if __name__ == '__main__':
     app.run()

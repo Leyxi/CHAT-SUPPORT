@@ -1,0 +1,57 @@
+{
+    "langId": "id",
+    "data": [
+      {
+        "type": "opening",
+        "words": "hai, hi, Astaa, tuti",
+        "answer": "Halooo Astaa disini siap membantumu kapan saja!!"
+      },
+      {
+        "type": "informasi",
+        "words": "apa itu kajuu",
+        "answer": "Kajuu adalah web e-commerce sayur dan buah-buahan yang sehat. Kami menyediakan berbagai macam sayur dan buah-buahan segar dan berkualitas dengan harga yang terjangkau."
+      },
+      {
+        "type": "sapaan",
+        "words": "selamat pagi",
+        "answer": "Selamat pagi, apa yang bisa saya bantu?"
+      },
+      {
+        "type": "sapaan",
+        "words": "selamat siang",
+        "answer": "Selamat siang, bagaimana harimu?"
+      },
+      {
+        "type": "sapaan",
+        "words": "selamat sore",
+        "answer": "Selamat sore, ada yang bisa saya bantu?"
+      },
+      {
+        "type": "sapaan",
+        "words": "selamat malam",
+        "answer": "Selamat malam, apa yang bisa saya bantu?"
+      },
+      {
+        "type": "pertanyaan",
+        "words": "apa itu kajuu?",
+        "answer": "Kajuu adalah web e-commerce sayur dan buah-buahan yang sehat. Kami menyediakan berbagai macam sayur dan buah-buahan segar dan berkualitas dengan harga yang terjangkau."
+      },
+      {
+        "type": "hello",
+        "words": "hi",
+        "answer": "Halo!"
+      },
+      {
+        "type": "disconnect",
+        "words": "apakah saya jahat?",
+        "answer": "tidak aidyl sangat baik,hanya saja asta tidak dapat mengerti dirimu,semangatt,hari ini adalah hari yg jelekk ,"
+      },
+      {
+        "type":"dadan",
+        "words":"dadan",
+        "answer":"dadan adalah anak kelas 10 smkn1 pangkep jurusan rpl dengan tinggi badan 165"
+      }
+      
+    ]
+  }
+  
