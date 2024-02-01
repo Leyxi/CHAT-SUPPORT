@@ -2,103 +2,590 @@
     "langId": "id",
     "data": [
       {
-        "type": "opening",
-        "words": "hai, hi, Astaa, tuti",
-        "answer": "Halooo Astaa disini siap membantumu kapan saja!!"
+        
+        "words":"apa, bagaimana, *, !, eh, jelaskan, ?, q, w, e, r, t, y, u, i, o, p, a, s, d, f, g, h, j, k, l, z, x, c, v, b, n, m, #, apa itu?",
+        "answer":"maaf, saya tidak mengerti pertanyaan anda"
       },
       {
-        "type": "informasi",
-        "words": "apa itu kajuu",
-        "answer": "Kajuu adalah web e-commerce sayur dan buah-buahan yang sehat. Kami menyediakan berbagai macam sayur dan buah-buahan segar dan berkualitas dengan harga yang terjangkau."
+        "words": "hai, hi, hai, hello, halo,",
+        "answer": "Halooo Kajuu disini siap membantumu kapan saja!!"
       },
       {
-        "type": "sapaan",
+        "words": "apa itu kajuu?",
+        "answer": "Kajuu adalah web e-commerce penjualan  sayur dan buah-buahan yang di produksi menggunakan metode Hydroponik. Kami menyediakan berbagai macam sayur dan buah-buahan segar dan berkualitas dengan harga yang terjangkau."
+      },
+  
+      {
         "words": "selamat pagi",
         "answer": "Selamat pagi, apa yang bisa saya bantu?"
       },
       {
-        "type": "sapaan",
         "words": "selamat siang",
         "answer": "Selamat siang, bagaimana harimu?"
       },
       {
-        "type": "sapaan",
         "words": "selamat sore",
         "answer": "Selamat sore, ada yang bisa saya bantu?"
       },
       {
-        "type": "sapaan",
         "words": "selamat malam",
         "answer": "Selamat malam, apa yang bisa saya bantu?"
       },
       {
-        "type": "pertanyaan",
-        "words": "apa itu kajuu?",
-        "answer": "Kajuu adalah web e-commerce sayur dan buah-buahan yang sehat. Kami menyediakan berbagai macam sayur dan buah-buahan segar dan berkualitas dengan harga yang terjangkau."
-      },
-      {
-        "type": "hello",
         "words": "hi",
         "answer": "Halo!"
       },
-      {
-        "type": "disconnect",
-        "words": "apakah saya jahat?",
-        "answer": "tidak aidyl sangat baik,hanya saja asta tidak dapat mengerti dirimu,semangatt,hari ini adalah hari yg jelekk ,"
-      },
       
       {
-        "type":"info",
         "words":"kajuu di buat dengan teknologi apa?dan framework apa?",
-        "answer":"web e-commerce kajuu di buat dengan teknologi ,FIGMA,LARAVEL,TAILWINDCSS,MYSQL,PYTHON"
+        "answer":"web e-commerce kajuu di buat dengan teknologi, figma, laravel, tailwindcss, myql, python"
 
       },
       {
-        "type":"info",
         "words":"apa itu CRUD?",
         "answer":"CRUD adalah singkatan dari Create, Read, Update, Delete, yang merujuk pada sekumpulan fungsi dasar yang digunakan untuk mengelola data dalam database atau aplikasi. Keempat fungsi ini membentuk siklus inti dari interaksi dengan data"
       },
       {
-        "type":"info",
-        "words":"Apakah web anda memiliki fitur Ai atau tertanam AI(Artificial intelligence)",
+        "words":"Apakah web anda memiliki fitur Ai atau tertanam AI(Artificial intelligence)?",
         "answer":"ya web kami memiliki fitur ai atau (Artificial intelligence) "
         },
         {
-          "type":"info",
           "words":"di mana asal sekolah anda?",
           "answer":"kami berasal dari sekolah SMK NEGERI 1 PANGKEP"
         },
         {
-          "type":"info",
           "words":"alamat sekolah anda?",
           "answer":"SMKN 1 Pangkep beralamat di Jalan Sambung Jawa, Kecamatan Bungoro, Kabupaten Pangkajene Kepulauan, Sulawesi Selatan."
         },
         {
-          "type":"info",
           "words":"berapa jumlah orang di tim anda?",
           "answer":"ada 3 orang"
         },
         {
-          "type":"info",
-          "words":"Apa itu figma",
+          "words":"Apa itu figma?",
           "answer":"Figma adalah aplikasi desain berbasis cloud yang digunakan untuk mendesain antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk produk digital. Figma menawarkan berbagai fitur yang memudahkan desainer untuk membuat desain yang profesional dan berkualitas tinggi"
         },
         {
-          "type":"info",
           "words":"apa itu laravel?",
           "answer":"Laravel adalah framework PHP yang open-source dan digunakan untuk mengembangkan aplikasi web. Framework ini didesain dengan prinsip-prinsip yang membuat pengembangan aplikasi berbasis web lebih efisien, dinamis, dan powerful.,"
         },
         {
-          "type":"info",
-          "words":"apa itu tailwind css",
+          "words":"apa itu tailwind css?",
           "answer":"Tailwind CSS adalah kerangka kerja CSS yang menyediakan katalog mendalam tentang kelas dan alat CSS yang memungkinkan Anda dengan mudah mulai menata situs web atau aplikasi Anda"
 
         },
         {
-          "type":"info",
-          "words":""
-        }
+          "words":"apa itu python?",
+          "answer":"Python adalah bahasa pemrograman komputer yang populer dan sering digunakan untuk mengembangkan software, aplikasi web, data science, machine learning, dan game. Python juga dapat digunakan untuk membangun situs, mengotomatiskan tugas, dan melakukan analisis data"
+        },
+        {
+          "words":"apa itu mysql?",
+          "answer":"MySQL adalah sistem manajemen database (DBMS) yang bersifat open-source dan menggunakan bahasa pemrograman SQL. MySQL adalah sistem manajemen database relasional (RDBMS) yang bekerja dengan model client-server"
+        }, 
+        {
+          "words":"bagaimana melakukan pemesanan dalam website kajuu?",
+          "answer":"Untuk melakukan pemesanan, kita tinggal menekan fitur shop dan akan tampil semua produk yg tersedia pada website KAJUU. Fitur shop adalah fitur yang berfungsi untuk menampilkan semua produk yang tersedia di website KAJUU. Produk yang tersedia adalah produk-produk yang dijual oleh KAJUU. Selanjutnya untuk melanjutkan proses pemesanan tekan produk yg di inginkan maka akan muncul deskripksi spesifikasi dan juga tampilan pada produk tersebut. Untuk melanjutkan proses pemesanan, kita perlu memilih produk yang ingin kita beli  Produk yang ingin dibeli adalah produk yang kita inginkan untuk dipesan Deskripsi spesifikasi adalah penjelasan mengenai spesifikasi produk tersebut Tampilan produk adalah gambar atau video dari produk tersebut. Setelah itu tekan add to bag untuk melanjutkan pemesanan dan kita akan di arahkan ke konfirmasi jumlah produk yg di inginkan. Add to bag adalah tombol yang berfungsi untuk menambahkan produk ke keranjang belanja.  Keranjang belanja adalah tempat untuk menyimpan produk-produk yang ingin kita beli.  Konfirmasi jumlah produk adalah proses untuk memastikan jumlah produk yang ingin kita beli. Setelah itu, tekan cek out untuk melanjutkan proses pembelian, tetapi terlebih dahulu kita akan di arahkan ke pengisian data diri mulai dari nama, email, dan juga alamat lengkap. Cek out adalah tombol yang berfungsi untuk melanjutkan proses pembelian. Pengisian data diri adalah proses untuk mengisi data diri kita, seperti nama, email, dan alamat lengkap. Setelah pengisian data selesai kita akan mengarah ke metode pembayaran. Metode pembayaran adalah cara yang digunakan untuk membayar pesanan kita. Adapun metode pembayaran yg kami sediakan ialah _            -Transfer BANK                                                                              -Cash On Delivery (COD)                                                                                      -Shopee pay                                                                              nah setelah memilih metode pembayaran tekan PAY NOW untuk menyelesaikan proses pemesanan. Transfer BANK adalah metode pembayaran dengan cara mentransfer uang ke rekening KAJUU. Cash On Delivery (COD) adalah metode pembayaran dengan cara membayar pesanan saat pesanan diterima. Shopee pay  adalah metode pembayaran dengan menggunakan saldo Shopee pay. PAY NOW  adalah tombol yang berfungsi untuk menyelesaikan proses pembayaran. Secara keseluruhan, proses pemesanan di website KAJUU adalah sebagai berikut:-. Buka website KAJUU. -. Tekan fitur shop. -. Pilih produk yang ingin dibeli. -. Tekan add to bag. -. Konfirmasi jumlah produk yang ingin dibeli. -. Tekan cek out. -. Isi data diri. -. Pilih metode pembayaran.-. Tekan PAY NOW. Proses pemesanan di website KAJUU cukup mudah dan praktis."
+        },
+        {
+          "words":"berapa estimasi lama pengiriman, jangka waktu pengiriman pesanan",
+          "answer":"untuk pengiriman pesanan saat ini hanya tersedia di wilayah pangkep dan sekitarnya, dengan perkiraan waktu 3-5 jam"
+        },
+        {
+          "words":"berapa estimasi pesanan saya sampai di rumah saya?",
+          "answer":"Estimasi waktu pesanan tiba di rumah Anda dapat bervariasi tergantung pada lokasi pengiriman. Namun, secara umum, kami mencoba untuk mengirim pesanan sesegera mungkin setelah proses pembayaran selesai. Anda dapat menghubungi layanan pelanggan kami untuk informasi lebih lanjut tentang status pengiriman pesanan Anda"
+        },
+        {
+          "words":"Hi, apakah produk ini masih tersedia?",
+          "answer":"Untuk mengecek ketersediaan produk, Anda dapat memeriksa langsung di situs web kami atau menghubungi layanan pelanggan. Produk yang tersedia akan ditampilkan di bagian toko online kami, dan kami selalu berusaha untuk menyediakan informasi yang akurat dan terkini"
+        },
+        {
+          "words":"",
+          "answer":""
+        },
+        {
+          "words":"",
+          "answer":""
+        },
+        {
+          "words":"",
+          "answer":""
+        },
+        {
+          "words":"Apa saja jenis produk pertanian yang dijual di website e-commerce?",
+          "answer":"-Produk pertanian segar, seperti buah-buahan, sayuran"
+        },
+        {
+          "words": "Apa perbedaan antara metode pembayaran Transfer BANK dan Shopee Pay di Kajuu?",
+          "answer": "Transfer BANK memungkinkan Anda mentransfer pembayaran langsung ke rekening Kajuu, sementara Shopee Pay menggunakan saldo Shopee Pay Anda untuk melakukan pembayaran. Pilih metode yang sesuai dengan preferensi Anda."
+          },
+          
+          {
+          "words": "Bagaimana saya bisa mendapatkan diskon atau promo di Kajuu?",
+          "answer": "Anda dapat memantau halaman promo di situs web Kajuu atau berlangganan newsletter kami untuk mendapatkan informasi terbaru mengenai diskon dan promo eksklusif. Kami juga sering mengadakan promo khusus untuk pelanggan setia."
+          },
+          
+          {
+          "words": "Apakah ada program afiliasi di Kajuu?",
+          "answer": "Ya, Kajuu memiliki program afiliasi di mana Anda dapat mendaftar dan mendapatkan komisi setiap kali seseorang melakukan pembelian melalui tautan afiliasi Anda. Kunjungi halaman 'Program Afiliasi' untuk informasi lebih lanjut."
+          },
+          
+          {
+          "words": "Bagaimana cara mengecek status pesanan saya di Kajuu?",
+          "answer": "Untuk mengecek status pesanan, masuk ke akun Anda, buka halaman 'Pesanan Saya', dan Anda akan melihat status pesanan terkini. Jika ada perubahan atau pembaruan, Anda juga akan menerima notifikasi."
+          },
+          
+          {
+          "words": "Apa kebijakan pengembalian dana di Kajuu?",
+          "answer": "Kajuu memiliki kebijakan pengembalian dana yang memungkinkan Anda mengajukan pengembalian dalam jangka waktu tertentu setelah menerima pesanan. Silakan kunjungi halaman 'Kebijakan Pengembalian' di situs web untuk informasi lebih lanjut."
+          },
+          
+          {
+          "words": "Bagaimana saya bisa bergabung dengan program loyalitas Kajuu?",
+          "answer": "Untuk bergabung dengan program loyalitas, Anda dapat membuat akun di Kajuu dan secara otomatis akan menjadi anggota program. Setiap pembelian akan memberikan poin yang dapat Anda tukarkan dengan diskon atau hadiah lainnya."
+          },
+          
+          {
+          "words": "Apakah Kajuu memiliki aplikasi mobile?",
+          "answer": "Ya, Kajuu memiliki aplikasi mobile yang dapat diunduh secara gratis di App Store atau Google Play. Aplikasi ini memudahkan Anda untuk menjelajahi dan berbelanja produk dari perangkat seluler Anda."
+          },
+          {
+            "words": "Apa saja keuntungan berbelanja online di platform e-commerce?",
+            "answer": "Berbelanja online di platform e-commerce memberikan kenyamanan, beragam pilihan produk, kemudahan perbandingan harga, serta seringkali adanya diskon dan promo eksklusif."
+            },
+            
+            {
+            "words": "Bagaimana cara melacak pesanan saya setelah melakukan pembelian online?",
+            "answer": "Setelah melakukan pembelian online, Anda dapat melacak pesanan Anda melalui fitur 'Lacak Pesanan' di akun Anda. Nomor pelacakan biasanya disertakan dalam email konfirmasi atau di halaman pesanan."
+            },
+            
+            {
+            "words": "Apakah semua transaksi pembayaran di e-commerce menggunakan sistem keamanan yang kuat?",
+            "answer": "Sebagian besar platform e-commerce menggunakan protokol keamanan yang tinggi, seperti enkripsi SSL, untuk melindungi informasi pembayaran pelanggan. Pastikan untuk selalu bertransaksi di situs yang aman dan terpercaya."
+            },
+            
+            {
+            "words": "Bagaimana tips memilih produk berkualitas saat berbelanja online?",
+            "answer": "Tips memilih produk berkualitas melibatkan membaca ulasan pelanggan, memeriksa spesifikasi produk dengan cermat, dan memilih penjual yang memiliki reputasi baik. Juga, pastikan untuk memahami kebijakan pengembalian produk."
+            },
+            
+            {
+            "words": "Apakah ada perbedaan antara metode pengiriman standar dan express di e-commerce?",
+            "answer": "Metode pengiriman standar biasanya membutuhkan waktu lebih lama namun dengan biaya pengiriman yang lebih rendah. Sementara itu, metode pengiriman express menawarkan pengiriman yang lebih cepat dengan biaya yang mungkin lebih tinggi."
+            },
+            
+            {
+            "words": "Bagaimana cara menghindari penipuan online saat berbelanja di web e-commerce?",
+            "answer": "Untuk menghindari penipuan online, pastikan untuk berbelanja di situs yang terpercaya, periksa ulasan pelanggan, hindari tautan yang mencurigakan, dan selalu gunakan metode pembayaran yang aman."
+            },
+            
+            {
+            "words": "Apa peran sistem manajemen database dalam operasional e-commerce?",
+            "answer": "Sistem manajemen database dalam e-commerce berperan penting dalam menyimpan, mengelola, dan mengakses data produk, pelanggan, dan transaksi. Ini memastikan informasi yang konsisten dan dapat diakses dengan efisien."
+            },
+            {
+              "words": "Apa saja keuntungan berbelanja online di platform e-commerce?",
+              "answer": "Berbelanja online di platform e-commerce memberikan kenyamanan, beragam pilihan produk, kemudahan perbandingan harga, serta seringkali adanya diskon dan promo eksklusif."
+              },
+              
+              {
+              "words": "Bagaimana cara melacak pesanan saya setelah melakukan pembelian online?",
+              "answer": "Setelah melakukan pembelian online, Anda dapat melacak pesanan Anda melalui fitur 'Lacak Pesanan' di akun Anda. Nomor pelacakan biasanya disertakan dalam email konfirmasi atau di halaman pesanan."
+              },
+              
+              {
+              "words": "Apakah semua transaksi pembayaran di e-commerce menggunakan sistem keamanan yang kuat?",
+              "answer": "Sebagian besar platform e-commerce menggunakan protokol keamanan yang tinggi, seperti enkripsi SSL, untuk melindungi informasi pembayaran pelanggan. Pastikan untuk selalu bertransaksi di situs yang aman dan terpercaya."
+              },
+              
+              {
+              "words": "Bagaimana tips memilih produk berkualitas saat berbelanja online?",
+              "answer": "Tips memilih produk berkualitas melibatkan membaca ulasan pelanggan, memeriksa spesifikasi produk dengan cermat, dan memilih penjual yang memiliki reputasi baik. Juga, pastikan untuk memahami kebijakan pengembalian produk."
+              },
+              
+              {
+              "words": "Apakah ada perbedaan antara metode pengiriman standar dan express di e-commerce?",
+              "answer": "Metode pengiriman standar biasanya membutuhkan waktu lebih lama namun dengan biaya pengiriman yang lebih rendah. Sementara itu, metode pengiriman express menawarkan pengiriman yang lebih cepat dengan biaya yang mungkin lebih tinggi."
+              },
+              
+              {
+              "words": "Bagaimana cara menghindari penipuan online saat berbelanja di web e-commerce?",
+              "answer": "Untuk menghindari penipuan online, pastikan untuk berbelanja di situs yang terpercaya, periksa ulasan pelanggan, hindari tautan yang mencurigakan, dan selalu gunakan metode pembayaran yang aman."
+              },
+              
+              {
+              "words": "Apa peran sistem manajemen database dalam operasional e-commerce?",
+              "answer": "Sistem manajemen database dalam e-commerce berperan penting dalam menyimpan, mengelola, dan mengakses data produk, pelanggan, dan transaksi. Ini memastikan informasi yang konsisten dan dapat diakses dengan efisien."
+              },
+              {
+                "words": "Apa itu e-commerce?",
+                "answer": "E-commerce, atau perdagangan elektronik, merujuk pada proses jual beli produk atau layanan secara online melalui platform digital."
+                },
+                
+                {
+                "words": "Bagaimana cara memilih metode pembayaran yang aman di e-commerce?",
+                "answer": "Pilihlah metode pembayaran yang aman, seperti kartu kredit, e-wallet, atau transfer bank. Hindari memberikan informasi pembayaran secara langsung melalui email atau pesan."
+                },
+                
+                {
+                "words": "Apakah e-commerce menyediakan layanan pelanggan?",
+                "answer": "Ya, kebanyakan platform e-commerce menyediakan layanan pelanggan untuk membantu pengguna dengan pertanyaan, keluhan, atau bantuan lainnya."
+                },
+                
+                {
+                "words": "Apa saja jenis produk yang umumnya dijual di web e-commerce?",
+                "answer": "Produk yang dijual di web e-commerce meliputi pakaian, elektronik, peralatan rumah tangga, buku, makanan, dan banyak lagi."
+                },
+                
+                {
+                "words": "Bagaimana cara mengamankan informasi pribadi saat berbelanja online?",
+                "answer": "Untuk mengamankan informasi pribadi, pastikan situs e-commerce menggunakan protokol keamanan, dan hindari berbagi informasi yang tidak perlu."
+                },
+                
+                {
+                "words": "Apakah setiap e-commerce memiliki kebijakan pengembalian yang sama?",
+                "answer": "Kebijakan pengembalian dapat bervariasi antar e-commerce. Pastikan untuk membaca dan memahami kebijakan pengembalian sebelum melakukan pembelian."
+                },
+                
+                {
+                "words": "Apa kelebihan dan kekurangan berbelanja di e-commerce dibandingkan dengan toko fisik?",
+                "answer": "Kelebihan e-commerce meliputi kenyamanan dan beragam pilihan, sementara kekurangannya melibatkan ketidakmampuan untuk melihat produk secara langsung sebelum pembelian."
+                },
+                
+                {
+                "words": "Bagaimana cara memastikan bahwa sebuah situs e-commerce terpercaya?",
+                "answer": "Pastikan situs e-commerce memiliki sertifikat keamanan, ulasan pelanggan positif, dan alamat fisik atau kontak yang dapat dihubungi."
+                },
+                
+                {
+                "words": "Apa yang dimaksud dengan 'flash sale' dalam e-commerce?",
+                "answer": "'Flash sale' adalah penawaran atau diskon yang berlangsung dalam waktu terbatas. Pengguna harus bergerak cepat untuk memanfaatkan penawaran ini."
+                },
+                
+                {
+                "words": "Apakah setiap transaksi e-commerce memerlukan pembuatan akun?",
+                "answer": "Tidak semua transaksi e-commerce memerlukan pembuatan akun. Beberapa platform memungkinkan pembelian tanpa akun, tetapi akun dapat memberikan keuntungan seperti melacak pesanan dengan mudah."
+                },
+                {
+                  "words": "Apa itu shopping cart?",
+                  "answer": "Shopping cart adalah fitur di situs web e-commerce yang memungkinkan pengguna menyimpan produk yang ingin dibeli sebelum melakukan checkout."
+                  },
+                  
+                  {
+                  "words": "Bagaimana cara mengetahui ulasan produk sebelum membelinya?",
+                  "answer": "Untuk mengetahui ulasan produk, Anda dapat membaca ulasan dari pembeli sebelumnya yang biasanya terdapat di halaman produk atau melalui fitur khusus yang disediakan oleh platform e-commerce."
+                  },
+                  
+                  {
+                  "words": "Apakah e-commerce menyediakan fitur gift wrapping atau kemasan hadiah?",
+                  "answer": "Beberapa e-commerce menyediakan layanan gift wrapping atau kemasan hadiah tambahan yang dapat Anda pilih saat checkout untuk pesanan yang akan dijadikan hadiah."
+                  },
+                  
+                  {
+                  "words": "Bagaimana mengelola akun pengguna di platform e-commerce?",
+                  "answer": "Anda dapat mengelola akun pengguna Anda di platform e-commerce dengan mengakses bagian pengaturan akun. Di sana, Anda dapat mengubah informasi pribadi, alamat pengiriman, dan kata sandi."
+                  },
+                  
+                  {
+                  "words": "Apakah ada program referensi atau rekomendasi teman di e-commerce?",
+                  "answer": "Beberapa platform e-commerce memiliki program referensi di mana Anda dapat mengundang teman-teman Anda untuk bergabung dan mendapatkan insentif atau diskon sebagai imbalan atas referensi tersebut."
+                  },
+                  {
+                    "words": "Bagaimana cara menemukan produk yang diinginkan di platform e-commerce?",
+                    "answer": "Anda dapat menggunakan fitur pencarian, menjelajahi kategori produk, atau mengikuti rekomendasi berdasarkan riwayat belanja Anda."
+                    },
+                    
+                    {
+                    "words": "Apakah e-commerce menyediakan fitur ulasan pelanggan untuk produk?",
+                    "answer": "Ya, kebanyakan platform e-commerce memiliki fitur ulasan pelanggan yang membantu pembeli untuk menilai kualitas produk berdasarkan pengalaman orang lain."
+                    },
+                    
+                    {
+                    "words": "Bagaimana cara menghubungi layanan pelanggan di platform e-commerce?",
+                    "answer": "Anda dapat menghubungi layanan pelanggan melalui formulir kontak di situs web, obrolan langsung, atau nomor telepon yang tersedia."
+                    },
+                    
+                    {
+                    "words": "Apakah e-commerce menyediakan program loyalitas bagi pelanggan setia?",
+                    "answer": "Beberapa platform e-commerce menawarkan program loyalitas yang memberikan keuntungan tambahan, seperti diskon, hadiah, atau pengiriman gratis kepada pelanggan setia."
+                    },
+                    
+                    {
+                    "words": "Bagaimana cara memastikan keamanan informasi pribadi saat berbelanja online?",
+                    "answer": "Pastikan untuk berbelanja di situs web yang aman (https://), hindari menggunakan Wi-Fi publik, dan perbarui secara teratur kata sandi akun Anda."
+                    },
+                    
+                    {
+                    "words": "Apa manfaat menggunakan akun pengguna saat berbelanja di e-commerce?",
+                    "answer": "Menggunakan akun pengguna memungkinkan Anda melacak pesanan, menyimpan daftar keinginan, dan menerima penawaran khusus yang dikustomisasi untuk Anda."
+                    },
+                    
+                    {
+                    "words": "Apakah semua e-commerce memiliki kebijakan pengembalian yang serupa?",
+                    "answer": "Kebijakan pengembalian dapat bervariasi. Pastikan untuk membaca dan memahami kebijakan pengembalian setiap toko sebelum melakukan pembelian."
+                    },
+                    
+                    {
+                    "words": "Bagaimana sistem rekomendasi produk bekerja di e-commerce?",
+                    "answer": "Sistem rekomendasi produk menggunakan algoritma untuk menganalisis riwayat belanja dan perilaku pengguna untuk menyarankan produk yang mungkin diminati."
+                    },
+                    
+                    {
+                    "words": "Apa kelebihan menggunakan aplikasi mobile e-commerce dibandingkan dengan versi desktop?",
+                    "answer": "Aplikasi mobile e-commerce memberikan kemudahan akses, pemberitahuan real-time, dan pengalaman berbelanja yang dioptimalkan untuk perangkat seluler."
+                    },
+                    
+                    {
+                    "words": "Bagaimana cara memeriksa ketersediaan stok produk di e-commerce?",
+                    "answer": "Anda dapat melihat ketersediaan stok produk di halaman produk atau keranjang belanja sebelum melakukan pembayaran."
+                    },
+                    {
+                      "words": "Bagaimana sistem keamanan e-commerce melindungi data pelanggan?",
+                      "answer": "E-commerce menggunakan enkripsi data, sertifikat SSL, dan firewall untuk melindungi informasi pribadi pelanggan dari ancaman keamanan."
+                      },
+                      
+                      {
+                      "words": "Apakah e-commerce mematuhi regulasi privasi data seperti GDPR?",
+                      "answer": "E-commerce yang beroperasi di wilayah yang mematuhi GDPR harus mematuhi regulasi ini, termasuk perlindungan data pelanggan dan hak privasi."
+                      },
+                      
+                      {
+                      "words": "Apa yang dimaksud dengan shopping cart abandonment dan bagaimana mengatasi masalah ini?",
+                      "answer": "Shopping cart abandonment terjadi ketika pelanggan meninggalkan keranjang belanja tanpa menyelesaikan pembelian. Untuk mengatasi hal ini, e-commerce dapat menggunakan strategi seperti pengingat email atau penawaran khusus."
+                      },
+                      
+                      {
+                      "words": "Apakah ada perbedaan antara marketplace dan toko online independen?",
+                      "answer": "Marketplace adalah platform di mana berbagai penjual dapat menjual produk mereka, sementara toko online independen dimiliki dan dioperasikan oleh satu penjual atau perusahaan."
+                      },
+                      
+                      {
+                      "words": "Bagaimana e-commerce mengelola kebijakan pengembalian dan penggantian produk?",
+                      "answer": "Kebijakan pengembalian dan penggantian produk dapat bervariasi, tetapi umumnya e-commerce menyediakan panduan yang jelas untuk memandu pelanggan dalam proses ini."
+                      },
+                      {
+                        "words": "Apa yang dimaksud dengan e-commerce?",
+                        "answer": "E-commerce atau perdagangan elektronik adalah proses pembelian dan penjualan produk atau layanan melalui internet."
+                        },
+                        
+                        {
+                        "words": "Bagaimana cara kerja sistem keamanan di platform e-commerce?",
+                        "answer": "Sistem keamanan di platform e-commerce melibatkan enkripsi data, perlindungan transaksi, dan pemantauan aktivitas mencurigakan untuk melindungi informasi pelanggan."
+                        },
+                        
+                        {
+                        "words": "Apakah penting untuk membaca ulasan pelanggan sebelum membeli produk online?",
+                        "answer": "Membaca ulasan pelanggan membantu pembeli mendapatkan informasi tentang kualitas produk, pengalaman pengguna, dan kehandalan penjual."
+                        },
+                        
+                        {
+                        "words": "Bagaimana cara memastikan bahwa situs e-commerce aman untuk berbelanja?",
+                        "answer": "Pastikan situs memiliki sertifikat keamanan SSL, periksa kebijakan privasi, dan hindari memberikan informasi sensitif melalui tautan yang tidak dikenal."
+                        },
+                        
+                        {
+                        "words": "Apakah ada risiko keamanan yang perlu diperhatikan saat berbelanja online?",
+                        "answer": "Beberapa risiko keamanan termasuk pencurian identitas, penipuan kartu kredit, atau serangan malware. Penting untuk mengambil langkah-langkah keamanan seperti penggunaan kata sandi yang kuat dan perangkat lunak keamanan."
+                        },
+                        
+                        {
+                        "words": "Apa perbedaan antara e-commerce B2B (Business-to-Business) dan B2C (Business-to-Consumer)?",
+                        "answer": "E-commerce B2B melibatkan transaksi antara bisnis, sedangkan B2C melibatkan transaksi antara bisnis dan konsumen. B2B cenderung memiliki volume transaksi yang lebih besar."
+                        },
+                        
+                        {
+                        "words": "Bagaimana e-commerce dapat meningkatkan pengalaman pelanggan?",
+                        "answer": "E-commerce dapat meningkatkan pengalaman pelanggan melalui antarmuka pengguna yang ramah, personalisasi rekomendasi produk, dan pelayanan pelanggan yang responsif."
+                        },
+                        {
+                          "words": "Apa perbedaan utama antara metode hydroponik dan pertanian konvensional?",
+                          "answer": "Perbedaan utama adalah penggunaan media tanam, di mana metode hydroponik menggunakan substrat inert atau larutan nutrisi tanpa tanah."
+                          },
+                          
+                          {
+                          "words": "Bagaimana cara mengatasi masalah kelebihan air dalam sistem metode hydroponik?",
+                          "answer": "Masalah kelebihan air dapat diatasi dengan memastikan sistem drainase berfungsi dengan baik dan memantau volume air yang diberikan pada tanaman."
+                          },
+                          
+                          {
+                          "words": "Apakah metode hydroponik dapat diaplikasikan pada pertanian organik?",
+                          "answer": "Ya, metode hydroponik dapat diterapkan dalam pertanian organik dengan menggunakan larutan nutrisi organik yang sesuai dengan standar pertanian organik."
+                          },
+                          
+                          {
+                          "words": "Bagaimana pengendalian hama dan penyakit dilakukan dalam metode hydroponik?",
+                          "answer": "Pengendalian hama dan penyakit dapat dilakukan dengan cara mempertahankan kebersihan sistem, penggunaan predator alami, dan pemantauan rutin."
+                          },
+                          
+                          {
+                          "words": "Apa peran cahaya dalam pertumbuhan tanaman pada metode hydroponik?",
+                          "answer": "Cahaya sangat penting untuk fotosintesis tanaman dalam metode hydroponik; lampu tumbuh sering digunakan untuk memberikan cahaya tambahan jika diperlukan."
+                          },
+                          
+                          {
+                          "words": "Bagaimana penggunaan metode hydroponik dapat mendukung pertanian berkelanjutan?",
+                          "answer": "Metode hydroponik dapat mendukung pertanian berkelanjutan dengan mengurangi penggunaan air dan pestisida, serta memaksimalkan hasil tanaman per unit luas."
+                          },
+                          
+                          {
+                          "words": "Apa tantangan utama dalam menerapkan metode hydroponik di lingkungan tropis?",
+                          "answer": "Tantangan utama melibatkan pengendalian suhu dan kelembaban, serta penerapan sistem pendinginan pada lingkungan tumbuh tanaman."
+                          },
+                          
+                          {
+                          "words": "Bagaimana pemilihan jenis substrat memengaruhi pertumbuhan tanaman dalam metode hydroponik?",
+                          "answer": "Pemilihan jenis substrat dapat memengaruhi aerasi, retensi air, dan dukungan tanaman; substrat umum melibatkan serat, kerikil, atau batu."
+                          },
+                          
+                          {
+                          "words": "Apa efek penggunaan metode hydroponik terhadap kualitas hasil panen?",
+                          "answer": "Penggunaan metode hydroponik dapat meningkatkan kualitas hasil panen dengan memberikan kontrol lebih besar terhadap nutrisi yang diterima tanaman."
+                          },
+                          
+                          {
+                          "words": "Bagaimana cara mengoptimalkan pertumbuhan tanaman tomat dengan metode hydroponik?",
+                          "answer": "Optimalisasi pertumbuhan tanaman tomat melibatkan pengaturan pH larutan nutrisi, pemilihan substrat, dan penempatan sistem drainase yang efisien."
+                          },
+                          
+                          {
+                          "words": "Apakah metode hydroponik dapat diterapkan dalam pertanian vertikal?",
+                          "answer": "Ya, metode hydroponik sangat cocok untuk pertanian vertikal dengan menggunakan sistem tumpuk atau menara untuk memaksimalkan ruang tumbuh."
+                          },
+                          
+                          {
+                          "words": "Bagaimana metode hydroponik dapat membantu pertumbuhan tanaman di daerah dengan tanah yang tidak subur?",
+                          "answer": "Metode hydroponik dapat membantu pertumbuhan tanaman di daerah dengan tanah tidak subur dengan memberikan nutrisi langsung ke akar tanaman."
+                          },
+                          
+                          {
+                          "words": "Apa risiko yang mungkin timbul jika pH larutan nutrisi tidak dijaga dengan baik dalam metode hydroponik?",
+                          "answer": "Jika pH larutan nutrisi tidak dijaga dengan baik, tanaman dapat mengalami kesulitan menyerap nutrisi, mengakibatkan pertumbuhan yang tidak optimal."
+                          },
+                          
+                          {
+                          "words": "Bagaimana perbedaan metode hidroponik dan aeroponik dalam pengelolaan nutrisi tanaman?",
+                          "answer": "Perbedaan utama adalah cara nutrisi disemprotkan pada akar tanaman; aeroponik menggunakan semprotan udara untuk mendistribusikan nutrisi."
+                          },
+                          
+                          {
+                          "words": "Apakah metode hydroponik dapat mengurangi dampak pertanian terhadap lingkungan?",
+                          "answer": "Ya, metode hydroponik dapat mengurangi dampak pertanian terhadap lingkungan dengan mengurangi penggunaan air dan pestisida serta meningkatkan efisiensi penggunaan lahan."
+                          },
+                          
+                          {
+                          "words": "Bagaimana cara menyesuaikan nutrisi pada metode hydroponik untuk berbagai jenis tanaman?",
+                          "answer": "Penyesuaian nutrisi melibatkan pemantauan kondisi tanaman dan penyesuaian konsentrasi nutrisi sesuai dengan kebutuhan spesifik tanaman yang ditanam."
+                          },
+                          
+                          {
+                          "words": "Apa peran aerasi dalam metode hydroponik dan bagaimana itu dicapai?",
+                          "answer": "Aerasi sangat penting untuk memberikan oksigen pada akar tanaman; ini dapat dicapai dengan penggunaan pompa udara atau perlengkapan aerasi lainnya dalam sistem."
+                          },
+                          
+                          {
+                          "words": "Bagaimana metode hydroponik dapat membantu pertumbuhan tanaman di lingkungan dengan musim dingin yang panjang?",
+                          "answer": "Metode hydroponik dapat membantu pertumbuhan tanaman di musim dingin yang panjang dengan menyediakan lingkungan kontrol yang optimal."
+                          },
+                          
+                          {
+                          "words": "Apa perbedaan antara metode hydroponik NFT (Nutrient Film Technique) dan sistem tanaman kocok?",
+                          "answer": "Perbedaan utama adalah cara larutan nutrisi disalurkan pada akar tanaman; NFT menggunakan aliran film tipis, sedangkan sistem tanaman kocok melibatkan pencelupan akar secara periodik."
+                          },
+                          
+                          {
+                          "words": "Apakah metode hydroponik dapat diterapkan pada tanaman buah-buahan?",
+                          "answer": "Ya, metode hydroponik dapat diterapkan pada tanaman buah-buahan seperti stroberi, melon, dan anggur dengan penyesuaian nutrisi yang tepat."
+                          },
+                          
+                          {
+                          "words": "Bagaimana penggunaan teknologi sensor dapat meningkatkan efisiensi metode hydroponik?",
+                          "answer": "Teknologi sensor dapat memantau kondisi tanaman, pH larutan nutrisi, dan kelembaban, meningkatkan kontrol dan efisiensi dalam sistem hydroponik."
+                          },
+                          
+                          {
+                          "words": "Apakah metode hydroponik memerlukan perawatan lebih intensif dibandingkan dengan pertanian tanah?",
+                          "answer": "Meskipun memerlukan pemantauan, metode hydroponik dapat memberikan hasil tanaman dengan perawatan yang lebih efisien dibandingkan pertanian tanah."
+                          },
+                          
+                          {
+                          "words": "Bagaimana metode hydroponik dapat diaplikasikan pada pertanian skala rumah tangga?",
+                          "answer": "Metode hydroponik dapat diaplikasikan pada pertanian skala rumah tangga dengan menggunakan sistem yang sederhana dan dapat diatur di dalam atau di sekitar rumah."
+                          },
+                          {
+                            "words": "Apa perbedaan antara metode hydroponik dan aquaponik?",
+                            "answer": "Metode hydroponik menggunakan larutan nutrisi, sementara aquaponik mengintegrasikan budidaya ikan dengan tanaman, memanfaatkan limbah ikan sebagai sumber nutrisi."
+                            },
+                            
+                            {
+                            "words": "Bagaimana metode deep water culture (DWC) dalam metode hydroponik?",
+                            "answer": "Dalam metode DWC, akar tanaman terendam dalam larutan nutrisi yang diberikan secara kontinu, menciptakan lingkungan yang sangat aerobik untuk pertumbuhan tanaman."
+                            },
+                            
+                            {
+                            "words": "Apakah metode nutrient film technique (NFT) efektif untuk tanaman tertentu?",
+                            "answer": "Metode NFT melibatkan aliran tipis larutan nutrisi di bawah akar tanaman, cocok untuk tanaman seperti selada dan bayam."
+                            }
+                            
+                            {
+                            "words": "Bagaimana sistem aeroponik bekerja dalam metode hydroponik?",
+                            "answer": "Sistem aeroponik menyemprotkan larutan nutrisi ke akar tanaman secara berkala, menciptakan lingkungan yang tinggi oksigen dan mendukung pertumbuhan tanaman yang cepat."
+                            }
+                            
+                            {
+                            "words": "Apa peran cahaya dalam metode hydroponik?",
+                            "answer": "Cahaya sangat penting dalam fotosintesis tanaman dalam metode hydroponik; penggunaan lampu tumbuh sering diterapkan untuk menyediakan spektrum cahaya yang optimal."
+                            }
+                            
+                            {
+                            "words": "Bagaimana cara mengatasi risiko kelebihan nutrisi pada metode hydroponik?",
+                            "answer": "Monitoring dan mengontrol jumlah nutrisi yang diberikan, serta memastikan sistem drainase berfungsi baik, dapat membantu mengatasi risiko kelebihan nutrisi."
+                            }
+                            
+                            {
+                            "words": "Apakah metode hydroponik memerlukan penggunaan tanah secara keseluruhan?",
+                            "answer": "Tidak, metode hydroponik sepenuhnya menggantikan penggunaan tanah dengan substrat inert atau larutan nutrisi."
+                            }
+                            
+                            {
+                            "words": "Apa efek suhu lingkungan pada pertumbuhan tanaman dalam metode hydroponik?",
+                            "answer": "Suhu lingkungan yang optimal mendukung pertumbuhan tanaman dalam metode hydroponik; suhu rendah atau tinggi dapat mempengaruhi kesehatan tanaman."
+                            }
+                            
+                            {
+                            "words": "Bagaimana memilih substrat yang tepat dalam metode hydroponik?",
+                            "answer": "Pemilihan substrat seperti serat kokos, rockwool, atau perlite harus disesuaikan dengan jenis tanaman dan kondisi tumbuh yang diinginkan."
+                            }
+                            
+                            {
+                            "words": "Apakah metode hydroponik dapat diterapkan di daerah dengan air yang terbatas?",
+                            "answer": "Ya, metode hydroponik dapat diadaptasi dengan sistem pengolahan air dan penggunaan air yang efisien, cocok untuk daerah dengan ketersediaan air yang terbatas."
+                            }
+                            
+                            {
+                            "words": "Bagaimana cara mengontrol tingkat kelembaban dalam sistem hydroponik?",
+                            "answer": "Penggunaan ventilasi dan sistem kontrol kelembaban membantu menjaga tingkat kelembaban yang optimal dalam metode hydroponik."
+                            }
+                            
+                            {
+                            "words": "Apa peran mikroorganisme dalam larutan nutrisi metode hydroponik?",
+                            "answer": "Mikroorganisme dapat mendegradasi sisa organik dalam larutan nutrisi dan mendukung kesehatan akar tanaman dalam metode hydroponik."
+                            }
+                            
+                            {
+                            "words": "Bagaimana mendeteksi dan mengatasi penyakit tanaman dalam metode hydroponik?",
+                            "answer": "Pemantauan rutin, kebersihan sistem, dan penggunaan perlakuan organik dapat membantu mendeteksi dan mengatasi penyakit tanaman dalam metode hydroponik."
+                            }
+                        
+                        
+                      
+                      
+                    
+                    
+                  
+                  
+       
+    
       
-    ]
-  }
+      
+      ]
+}
   

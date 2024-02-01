@@ -28,9 +28,11 @@ def load_data_json():
 def generate_response(user_input: str) -> Response:
     data = load_data_json()
 
-   
+    
     keywords = [token.text for token in nlp(user_input) if token.pos_ in ["NOUN", "VERB", "ADJ"]]
     intent = "greeting" if "hello" in keywords else "question"
+    print(intent)
+    
 
     # Cari jawaban berdasarkan kata kunci atau maksud pengguna
     answer = None
